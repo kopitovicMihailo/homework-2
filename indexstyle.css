@@ -1,0 +1,101 @@
+.homePage {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    background-image: url(./layers/Texture\ Fill.png);
+    background-size: 50%;
+    }
+.item {
+    background-color: rgba(0, 255, 255, 0.216);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    }
+.item1 {
+    background-color: rgba(0, 255, 255, 0.216);
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    }
+.item2 {
+    background-color: rgba(0, 255, 255, 0.216);
+    text-align: center;
+    padding: 0px;
+    font-size: 30px;
+    }
+.header {
+    grid-column: 1 / span 6;
+    }
+.bike {
+    background: url(./layers/bike_logo.png);
+    background-repeat: no-repeat;
+    background-size: 12%;
+    background-position: center;
+    grid-column: 1;
+    grid-row: 2;
+    }
+.empty {
+    grid-column: 2 ;
+    grid-row: 2;
+    }
+.home {
+    grid-column: 3;
+    grid-row: 2;
+}
+.item > button {
+    background-color: transparent;
+    border: none;
+    font-size: large;
+    width: 60%;
+    height: 130%;
+    
+}
+.item > button:hover {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: large;
+    width: 60%;
+    height: 130%;
+}
+.about_us {
+    grid-column: 4;
+    grid-row: 2;
+}
+.gallery {
+    grid-column: 5;
+    grid-row: 2;
+}
+.join_us {
+    grid-column: 6;
+    grid-row: 2;
+}
+.content_1 {
+    background-image: url(./layers/image.png);
+    grid-column: 1 / span 6;
+    grid-row: 3;
+}
+.insta {
+    grid-column: 1;
+    grid-row: 4;
+}
+.face {
+    grid-column: 2;
+    grid-row: 4;
+}
+.twit {
+    grid-column: 3;
+    grid-row: 4;
+}
+.whatsup {
+    grid-column: 4;
+    grid-row: 4;
+}
+.espace {
+    grid-column: 5 / span 2;
+    grid-row: 4;
+}
+.footer {
+    grid-column: 1 / span 6;
+    grid-row: 5;
+}

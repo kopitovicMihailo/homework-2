@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .homePage {
     display: grid;
     gap: 10px;
@@ -6,23 +10,27 @@
     background-size: 50%;
     height: 96.5%;
     width: 98.5%;
-    }
+}
+
 .nav_buttons {
     grid-column: 2 / span 4;
     grid-row: 2;
-    }
+}
+
 .item {
     background-color: rgba(0, 255, 255, 0.216);
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    }
+}
+
 .item1 {
     background-color: rgba(0, 255, 255, 0.216);
     text-align: center;
     padding: 50px;
     font-size: 30px;
-    }
+}
+
 .item2 {
     background-color: rgba(0, 255, 255, 0.216);
     text-align: center;
@@ -31,80 +39,161 @@
     grid-column: 1 / span 6;
     grid-row: 7;
     text-align: left;
-    }
+}
 
 .header {
     grid-column: 1 / span 6;
     grid-row: 1;
-    
-    }
+}
+
 .bike {
     background: url(./layers/bike_logo.png);
     background-repeat: no-repeat;
-    background-size: 30%;
+    background-size: 25%;
     background-position: center;
     grid-column: 1;
     grid-row: 2;
-    }
+}
 
-.item > button {
+.item>button {
     background-color: transparent;
     border: none;
     font-size: large;
     width: 15%;
     height: 50%;
-    
-    }
-.item > button:hover {
+}
+
+.item>button:hover {
     background-color: black;
     color: rgb(255, 255, 255);
     border: none;
     font-size: large;
     width: 15%;
     height: 50%;
-    }
+}
+
 .content_1 {
-    background-image: url(./layers/image.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    width: auto;
+    height: 110%;
+    padding-left: 0%;
+    padding-right: 0%;
     grid-column: 1 / span 6;
     grid-row: 3 / span 4;
-    }
+}
+
+.backgr {
+    position: relative;
+    background-image: url(./layers/Shape.png);
+    width: 100%;
+    height: 80%;
+}
+
+.image {
+    position: absolute;
+    top: -35%;
+    left: 6%;
+    background-image: url(./layers/image.png);
+    background-size: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 180%;
+    width: 40%;
+}
+
+.text_1 {
+    background-image: url(./layers/Body\ text.png);
+    top: 27%;
+    left: 8%;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 70%;
+    width: 10%;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:inherit;
+    font-size: 130%;
+}
+
+h3.first_part {
+    text-align: left;
+    color: #E8E8E8;
+    position: absolute;
+    top: 3%;
+    left: 45%;
+}
+
+h3.second_part {
+    text-align: left;
+    color: rgba(69, 172, 117, 1);
+    position: absolute;
+    top: 38%;
+    left: 45%;
+}
+
+#button1 {
+    background-color: rgba(69, 172, 117, 1);
+    position: absolute;
+    top: 55%;
+    left: 64%;
+    height: 13%;
+}
+
+h6 {
+    position: absolute;
+    top: 64%;
+    left: 45%;
+    font-size: 35%;
+    text-align: left;
+    color: #D9D9D9;
+}
 
 .footer {
     grid-column: 1 / span 6;
     grid-row: 8;
-    }
+}
+
+.social_media {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+}
+
 #insta {
-    height: 40%;
-    width: 3%;
+    height: 33%;
+    width: 33%;
     background-image: url(./layers/instagram.png);
     background-size: 90%;
     background-repeat: no-repeat;
     border: none;
     background-color: transparent;
 }
+
 #face {
-    height: 40%;
-    width: 3%;
+    height: 33%;
+    width: 33%;
     background-image: url(./layers/facebook.png);
     background-size: 90%;
     background-repeat: no-repeat;
     border: none;
     background-color: transparent;
 }
-#twit{
-    height: 40%;
-    width: 3%;
+
+#twit {
+    height: 33%;
+    width: 33%;
     background-image: url(./layers/twitter.png);
     background-size: 90%;
     background-repeat: no-repeat;
     border: none;
     background-color: transparent;
 }
+
 #whatsup {
-    height: 40%;
-    width: 3%;
+    height: 33%;
+    width: 33%;
     background-image: url(./layers/whatsapp.png);
     background-size: 90%;
     background-repeat: no-repeat;

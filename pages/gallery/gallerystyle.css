@@ -146,9 +146,27 @@
     .third {
         visibility: hidden;
     }
+
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
 }
 
 @media only screen and (min-width: 1140px) {
+
     /* For desktop: */
     .gallery {
         background-image: url(../../layers/Texture\ Fill.png);
@@ -239,5 +257,22 @@
     .third {
         visibility: visible;
     }
-}
+
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+
 }
